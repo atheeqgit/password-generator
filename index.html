@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- ?========= REMIXIONS ======= -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- ?====== GOOGLE FONTS LINK ======= -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Title-content</title>
+  </head>
+  <body>
+    <div class="body-container">
+      <div class="generator">
+        <h1 class="title">password generator</h1>
+        <div class="top-display">
+          <input type="text" id="output" disabled />
+          <span class="copy" id="copy">Copy</span>
+        </div>
+        <div class="bottom">
+          <ul>
+            <li>
+              <label for="length" id="font">password length</label>
+              <input type="numbers" id="length" value="8" />
+            </li>
+            <li>
+              <label for="UpperCase">alphabets UpperCase</label>
+              <input type="checkbox" id="UpperCase" />
+            </li>
+            <li>
+              <label for="lowerCase">alphabets lowerCase</label>
+              <input type="checkbox" id="lowerCase" />
+            </li>
+            <li>
+              <label for="symbols">symbols</label>
+              <input type="checkbox" id="symbols" />
+            </li>
+            <li>
+              <label for="numbers">numbers</label>
+              <input type="checkbox" id="numbers" />
+            </li>
+          </ul>
+        </div>
+        <div class="generate-button" id="button">GENERATE PASSWORD</div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
